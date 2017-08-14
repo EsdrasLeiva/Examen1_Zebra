@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1502706146 source:c:\users\usuario\desktop\examen1zebra-master\evaluador.cpp
+	"Evaluador.h"
+
+1502706146 c:\users\usuario\desktop\examen1zebra-master\evaluador.h
+	<iostream>
+	<fstream>
+	<math.h>
+	<list>
+	<vector>
+
+1502719424 source:c:\users\usuario\desktop\examen1zebra-master\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<list>
+	<vector>
+	"Evaluador.h"
+
