@@ -17,3 +17,21 @@
 	<vector>
 	"Evaluador.h"
 
+1502800700 source:c:\users\usuario\desktop\examen1_zebra\examen1_zebra\evaluador.cpp
+	"Evaluador.h"
+
+1502800700 c:\users\usuario\desktop\examen1_zebra\examen1_zebra\evaluador.h
+	<iostream>
+	<fstream>
+	<math.h>
+	<list>
+	<vector>
+
+1502800920 source:c:\users\usuario\desktop\examen1_zebra\examen1_zebra\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<list>
+	<vector>
+	"Evaluador.h"
+

@@ -19,18 +19,35 @@ int obtenerValor(Numero** arreglo, int pos)
 //Devuelve true si y solo si todas las letras de las cadenas de la lista son mayusculas
 bool sonMayusculas(list<string> palabras)
 {
-  //  if(list<palabras> == 'A' && list<palabras> == 'Z')
-  //  {
-  //      return true;
-   // }
-   //     sreturn false;
+  for(list<string>::iterator i = palabras.begin();
+        i!=palabras.end();
+        i++)
+  {
+    string palabra = *i;
+    for(int j=0; j<(int)palabra.size();j++)
+      if(palabra[j]<'A' || palabra[j]>'Z')
+        return false;
+  }
+  return true;
 }
+
 
 //Devuelve un vector que contenga todos los valores del vector de parametro sin repetir ningun valor
 vector<int> eliminarRepetidos(vector<int> vector_a)
 {
-    vector<int> respuesta;
-    return respuesta;
+  vector<int> respuesta;
+  for(int i=0; i<(int)vector_a.size(); i++)
+  {
+    bool encontrado = false;
+    for(int j=0;j<(int)respuesta.size();j++)
+    {
+      if(vector_a[i]==respuesta[j])
+        encontrado = true;
+    }
+    if(!encontrado)
+      respuesta.push_back(vector_a[i]);
+  }
+  return respuesta;
 }
 
 //Guarda el contenido del objeto Pais que viene como parametro
